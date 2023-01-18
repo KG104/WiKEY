@@ -1,0 +1,10 @@
+.headerTab {
+    color: white;
+    background-image: url(../images/right_shift.jpg);
+    background-size: contain;
+}
+
+#wikey {
+    background-image: url(../images/spacebar.jpg);
+    background-size: contain;
+}

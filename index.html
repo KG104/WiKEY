@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>wiKEY</title>
-    <link rel="stylesheet" TYPE="text/css" href="include/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" TYPE="text/css" href="include/css/bootstrap.min.css">
+    <link rel="stylesheet" TYPE="text/css" href="include/css/style.css">
 </head>
 <body>
     <div id="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="include/images/wikey_logo.png" alt="Bootstrap" width="150">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link active" href="switches.html">Switches</a>
+                <a class="nav-link active" href="switches.html">
+                    <div class="headerTab">Switches</div>
+                </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" href="keycaps.html">Keycaps</a>
+                <a class="nav-link active" href="keycaps.html">
+                    <div class="headerTab">Keycaps</div>
+                </a>
+                </li>
+                <li>
+                    <a class="nav-item" href="index.html">
+                        <div id="wikey">
+                            <img src="include/images/wikey_logo.png" alt="Bootstrap" width="150">
+                        </div>
+                    </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active"  href="keyboards.html">Keyboards</a>
+                <a class="nav-link active"  href="keyboards.html">
+                    <div class="headerTab">Keyboards</div>
+                </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" href="guides.html">Guides</a>
+                <a class="nav-link active" href="guides.html">
+                    <div class="headerTab">Guides</div>
+                </a>
                 </li>
             </ul>
             </div>
@@ -41,6 +51,6 @@
     
     <p>All about the click, clack and the thock</p>
 
-    <script src="include/bootstrap/js/bootstrap.min.js"></script>
+    <script src="include/js/bootstrap.min.js"></script>
 </body>
 </html>
