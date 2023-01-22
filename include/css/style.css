@@ -2,13 +2,6 @@ body {
     font-family: SplineSans;
 }
 
-.headerTab {
-    color: white;
-    background-image: url(../images/right_shift.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .card {
     border-color: #8352a1!important;
     color: #8352a1;
