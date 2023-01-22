@@ -1,3 +1,7 @@
+body {
+    font-family: SplineSans;
+}
+
 .headerTab {
     color: white;
     background-image: url(../images/right_shift.jpg);
@@ -12,4 +16,18 @@
 
 .card-text {
     color:black;
+}
+
+.bg-light {
+    background-color: #8352a1!important;
+}
+
+.col {
+    margin-bottom: 1rem;
+}
+
+@font-face {
+    font-family: SplineSans;
+    font-weight: 400;
+    src: url(../fonts/SplineSans-VariableFont_wght.ttf);
 }
