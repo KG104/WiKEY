@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>wiKEY</title>
     <link rel="stylesheet" TYPE="text/css" href="include/css/bootstrap.min.css">
-    <link rel="stylesheet" TYPE="text/css" href="include/css/style.css">
+    <link rel="stylesheet" TYPE="text/css" href="include/css/index.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="(GENAUE PFADANGABE/DATEINAME.ico">
 </head>
 <body>
-    <div id="header">
+    <div class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -43,22 +43,26 @@
         </div>
     </nav>
     </div>
-    <div id="content">
-        <h1 style="margin-bottom: 30pt;">Featured Articles</h1>
-        <div class="mx-auto card mb-3" class="mx-auto" style="max-width: 540px;">
+    <div class="content">
+        <h1 style="text-align: center; font-size: 48pt; margin-bottom: 4rem;">Featured Articles</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-2">
+          <div class="col">
+          <div class="mx-auto card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="include/images/typewriter.jpg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">A brief history of keyboard layouts</h5>
-                  <p class="card-text">Qwerty, Dvorak, Azerty … What's their origin?</p>
+                  <h5 class="card-title">A brief history about keyboard layouts</h5>
+                  <p class="card-text">A keyboard layout is any specific physical, visual or functional arrangement of the keys, legends, or key-meaning associations…</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="mx-auto card mb-3" class="mx-auto" style="max-width: 540px;">
+        </div>
+        <div class="col">
+          <div class="mx-auto card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="include/images/lube.jpg" class="img-fluid rounded-start" alt="...">
@@ -66,12 +70,14 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">How to lube switches</h5>
-                  <p class="card-text">Do you want a smoother typing experience? Try lubing your switches!</p>
+                  <p class="card-text">Learn how to make your switches smoother</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="mx-auto card mb-3" class="mx-auto" style="max-width: 540px;">
+        </div>
+        <div class="col">
+          <div class="mx-auto card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="include/images/switches.jpg" class="img-fluid rounded-start" alt="...">
@@ -79,12 +85,14 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">How to pick the right switch</h5>
-                  <p class="card-text">For beginners, the sheer amount of switches can be quite overwhelming. This article will guide you through all of the options and help you make the right decision.</p>
-                </div>
+                  <p class="card-text">The sheer amount of switches on the market can be quite overwhelming. This article will guide you through…</p>
               </div>
             </div>
           </div>
-          <div class="mx-auto card mb-3" style="max-width: 540px;">
+        </div>
+        </div>
+        <div class="col">
+          <div class="mx-auto card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="include/images/custom_keycaps.jpg" class="img-fluid rounded-start" alt="...">
@@ -92,11 +100,14 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">How to make custom keycaps</h5>
-                  <p class="card-text">The keycaps you choose make a keyboard yours! Here's how to take the customization even further.</p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+    </div>
+    </div>
     <div id="footer">
         <div id="imprint"></div>
     </div>
