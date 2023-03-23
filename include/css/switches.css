@@ -17,6 +17,22 @@ body {
 
 .header {
     padding-bottom: 14rem;
+    border-radius: 0rem 0rem 3rem 3rem;
+    background: black;
+    width: 65%;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topHeaderCol {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+#bottomHeaderCol {
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .row{
@@ -24,7 +40,7 @@ body {
     padding-right: 6rem;
 }
 
-.col{
+.col:not(#topHeaderCol, .col:not(#topHeaderCol, #bottomHeader)) {
     margin-bottom: 2rem;
 }
 
@@ -40,6 +56,10 @@ body {
 
 .card-text {
     font-size:14pt;
+}
+
+#content {
+    margin-top: 8rem;
 }
 
 @font-face {
