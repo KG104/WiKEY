@@ -1,3 +1,25 @@
+body {
+    font-family: SplineSans;
+}
+
+.card {
+    border-color: #8352a1!important;
+    color: #8352a1;
+}
+
+.card-text {
+    color:black;
+}
+
+.bg-light {
+    background-color: #8352a1!important;
+}
+
+.col {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
 .header {
     padding-bottom: 14rem;
     border-radius: 0rem 0rem 3rem 3rem;
@@ -8,12 +30,26 @@
     margin-right: auto;
 }
 
-#topHeaderCol {
-    padding-left: 6rem;
-    padding-right: 6rem;
+.content {
+    padding-top: 8rem;
 }
 
-#bottomHeaderCol {
-    padding-left: 6rem;
-    padding-right: 6rem;
+.img-fluid {
+    max-width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 38pt;
+}
+
+.card-text {
+    font-size:14pt;
+}
+
+@font-face {
+    font-family: SplineSans;
+    font-weight: 400;
+    src: url(../fonts/SplineSans-VariableFont_wght.ttf);
 }

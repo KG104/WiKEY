@@ -40,7 +40,7 @@ body {
     padding-right: 6rem;
 }
 
-.col:not(#topHeaderCol, .col:not(#topHeaderCol, #bottomHeader)) {
+.col:not(#topHeaderCol, #bottomHeader) {
     margin-bottom: 2rem;
 }
 

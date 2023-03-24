@@ -25,6 +25,10 @@ body {
     margin-right: auto;
 }
 
+#content {
+    padding-top: 8rem;
+}
+
 #topHeaderCol {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -40,7 +44,7 @@ body {
     padding-right: 6rem;
 }
 
-.col:not(#topHeaderCol, .col:not(#topHeaderCol, #bottomHeader)) {
+.col:not(#topHeaderCol, #bottomHeader) {
     margin-bottom: 2rem;
 }
 
